@@ -1,0 +1,1 @@
+python train.py --dataroot ../datasets/BRATS_images/ --dataA Synthetic_T1 --dataB Synthetic_T2 --name brats_t1_t2 --model cycle_gan --pool_size 50 --no_dropout --gpu_ids 0,1,2,3 --batchSize 4 --display_freq 1000 --update_html_freq 2000 --input_nc 1 --output_nc 1 
